@@ -32,7 +32,7 @@
 	width: 20vw;
 	height: 30px;
 	padding: 10px;
-	background-color: orange;
+	background-color: salmon;
 	color: white;
 	font-size: 2vw;
 }
@@ -53,25 +53,24 @@
 
 .pads {
 	display: flex;
-    align-items: flex-end;
-    margin: 10px;
+	align-items: flex-end;
+	margin: 10px;
 }
 
 .pad-detail-info {
 	position: absolute;
-    top: 30%;
-    left: 5%;
+	top: 30%;
+	left: 5%;
 	width: 20vw;
 	text-align: left;
 }
 
 .pad-in-hand-info {
 	position: absolute;
-    top: 20%;
-   right: 15%;
+	top: 20%;
+	right: 15%;
 	width: 30vw;
 	text-align: left;
-	
 }
 .pad-img {
 	width: 95%;
@@ -89,4 +88,40 @@
 .text-5 {
 	margin-bottom: 2vh;
 	width: 14vw;
-	}
+}
+
+.products {
+	display: flex;	
+	
+}
+
+.product {
+	width: 90%;
+
+}
+
+.product-div {
+	margin: 10px;
+}
+
+.shop-now-button {
+	text-align: center;
+	float: center;
+	width: 20vw;
+	height: 30px;
+	padding: 10px;
+	background-color: salmon;
+	color: white;
+	font-size: 2vw;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 40%;;
+}
+
+.press-quotes-div {
+	position: absolute;
+	width: 30vw;
+}
+.press-quotes {
+	width: 100%;
+}
