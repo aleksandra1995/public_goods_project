@@ -59,16 +59,19 @@
 
 .pad-detail-info {
 	position: absolute;
-    top: 50%;
+    top: 30%;
     left: 5%;
-    width: 30vw;
+	width: 20vw;
+	text-align: left;
 }
 
 .pad-in-hand-info {
 	position: absolute;
-    top: 50%;
+    top: 20%;
    right: 15%;
-    width: 30vw;
+	width: 30vw;
+	text-align: left;
+	
 }
 .pad-img {
 	width: 95%;
@@ -82,3 +85,8 @@
 	margin-top: 3vh;
 	font-size: 1.2vw;
 }
+
+.text-5 {
+	margin-bottom: 2vh;
+	width: 14vw;
+	}
