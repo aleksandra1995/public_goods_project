@@ -5,12 +5,12 @@
 }
 
 .text-1 {
-    font-size: 3vw;
+	font-size: 3vw;
 }
 
 .text-2 {
-    margin-top: 15px;
-    font-size: 2vw;
+	margin-top: 15px;
+	font-size: 2vw;
 }
 .image {
 	width: 100%;
@@ -19,62 +19,66 @@
 	position: absolute;
 	top: 30%;
 	left: 20%;
-    transform: translate(-50%, -50%);
-    width: 30vw;
-   text-align: left;
+	transform: translate(-50%, -50%);
+	width: 30vw;
+	text-align: left;
 }
 
 .trail-button {
-    position: absolute;
+	position: absolute;
 	bottom: 10%;
 	left: 15%;
-    transform: translate(-50%, -50%);
-    width: 20vw;
-    height: 30px;
-    padding: 10px;
-    background-color: orange;
-    color: white;
-    font-size: 2vw;
+	transform: translate(-50%, -50%);
+	width: 20vw;
+	height: 30px;
+	padding: 10px;
+	background-color: orange;
+	color: white;
+	font-size: 2vw;
 }
 
 .bamboo-pic {
-position: relative;
-width: 100%;
-
+	margin: 30px;
+	position: relative;
+	width: 95%;
 }
 
 .bamboo-pic-content {
-    color: white;
-    position: absolute;
-top:50%;
-left: 30%;
-width: 400px;
+	color: white;
+	position: absolute;
+	top: 25%;
+	left: 35%;
+	width: 30vw;
 }
 
 .pads {
-    display: inline;
-}
-.pad-detail {
-    float: left;
-    /* position: relative; */
-    /* width: 200px; */
-}
-
-.pad-in-hand {
-    float: right;
-    /* position: relative; */
-    /* width: 200px; */
+	display: flex;
+    align-items: flex-end;
+    margin: 10px;
 }
 
 .pad-detail-info {
-    position: absolute;
+	position: absolute;
     top: 50%;
+    left: 5%;
+    width: 30vw;
 }
 
 .pad-in-hand-info {
-    position: absolute;
+	position: absolute;
     top: 50%;
+   right: 15%;
+    width: 30vw;
 }
 .pad-img {
-    width: 500px;
+	width: 95%;
+}
+
+.text-3 {
+	font-size: 3vw;
+}
+
+.text-4 {
+	margin-top: 3vh;
+	font-size: 1.2vw;
 }
